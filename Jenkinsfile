@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Git Check Out') {
             steps {
-                git 'https://github.com/gaurank25/NAGP-JENKINS-CICD'
+                echo 'hello'
             }
         }
         stage('Test') {
